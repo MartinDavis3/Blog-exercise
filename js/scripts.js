@@ -70,7 +70,7 @@ const addArticleBefore = ( additionalArticle, searchTextInExistingArticle ) => {
 
 const extraArticle = new Article( 'SASS' );
 extraArticle.content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum purus sit amet neque pretium varius. Nulla ut est eros. Donec pharetra leo eget massa iaculis, sit amet condimentum ex faucibus. Sed arcu urna, molestie nec odio vitae, lobortis lacinia lacus. Nunc dictum, purus quis blandit faucibus, diam libero pretium libero, at tempor odio odio elementum metus. Aliquam varius felis in sapien molestie, ac ultrices justo eleifend. Nulla at velit purus. Suspendisse nec cursus neque, efficitur consequat lorem. Vestibulum ut risus id felis pulvinar blandit sit amet in risus. Morbi maximus condimentum hendrerit. Nulla tempus mauris in efficitur bibendum.';
-addArticleBefore( extraArticle, '(TS)' );
+addArticleBefore( extraArticle, '(JS)' );
 
 for ( let article of blogArticles )
 {
